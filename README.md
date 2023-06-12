@@ -22,15 +22,11 @@ Used to deploy App
 
 4- Docker:
 
-Used to build dockerfiles for jenkins and the app
-
-5- Jenkins:
-
-Used to make the CI CD part and make a complete pipeline
-
-5- create docker file to dockerize ping-pong and push image to dockerhub.
+Used to build dockerfiles for jenkins and create dockerfile to dockerize ping-pong and push image to dockerhub.
 
 docker build  -t karimhisham/pingpong .
 docker push karimhisham/pingpong
 
+5- Jenkins:
 
+Used to make the CI CD part and make a complete pipeline
